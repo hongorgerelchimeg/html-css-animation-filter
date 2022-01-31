@@ -108,3 +108,17 @@
     transform: scale(1.4);
 }
 
+.ex-10-icon {
+    animation-duration: 2s;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes rotate {
+    100% {
+        transform: rotate(-360deg);
+      }
+
+      
+
