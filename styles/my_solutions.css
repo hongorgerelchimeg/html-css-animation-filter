@@ -119,6 +119,44 @@
     100% {
         transform: rotate(-360deg);
       }
-
+  }
       
+.ex-11-icon:hover {
+    animation-duration: 2s;
+    animation-name: half_rotate;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+  
+@keyframes half_rotate {
+    75% {
+        transform: rotate(320deg);
+      }
+    
+    100% {
+        transform: rotate(0deg);
+      }
+  }
+
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: 2s border_top ease;
+
+  }
+
+.ex-12-button:hover  .ex-12-bottom-white {
+    animation: 2s border_bottom ease 1;
+}
+
+@keyframes border_top {
+    50% {
+        transform: translate(90px);
+    }
+}
+
+@keyframes border_bottom {
+    50% {
+        transform: translate(-90px);
+    }
+}
 
