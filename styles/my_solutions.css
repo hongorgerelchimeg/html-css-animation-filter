@@ -1,0 +1,110 @@
+.ex-1-square {
+    transition: 2s;
+}
+.ex-1-square:hover {
+    background: red;
+}
+
+.ex-2-square {
+    transition: 2s ease-in-out;   
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+.ex-3-square {
+    transition: 3s ease-in-out;
+
+}
+
+.ex-3-square:hover {
+    border-radius: 180%;
+}
+
+.ex-4-square {
+    transition: 3s ease;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+
+.ex-5-square {
+    transition: 1s ease-in-out;
+}
+
+.ex-5-square:hover {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.ex-5-square:active {
+    margin: 35px;
+    width: 30px;
+    height: 30px;
+}
+
+.ex-6-img {
+    transition: 1s ease;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* .ex-7-img:hover {
+    animation-duration: 3s;
+    animation-name: img_filter;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img_filter {
+    from {
+      filter: grayscale(0);
+      filter: sepia(0);
+    }
+  
+    75% {
+        filter: grayscale(0.3);
+        filter: sepia(0.2);
+    }
+  
+    to {
+        filter: grayscale(0.5);
+        filter: sepia(0.5);
+    }
+  } */
+
+.ex-7-img {
+      transition: 1s linear;
+}
+
+.ex-7-img:hover {
+      filter: grayscale(0.5);
+      filter: sepia(0.5);
+}
+
+.ex-8-img {
+    transition: 1s ease-in-out;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(0.5);
+    filter: sepia(0.5);
+    border-radius: 5%;
+}
+
+.ex-9-img {
+    transition: 3s ease;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(0.5);
+    filter: sepia(0.5);
+    border-radius: 5%;
+    transform: scale(1.4);
+}
+
