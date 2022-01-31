@@ -119,6 +119,22 @@
     100% {
         transform: rotate(-360deg);
       }
-
+  }
       
-
+.ex-11-icon:hover {
+    animation-duration: 2s;
+    animation-name: half_rotate;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes half_rotate {
+    75% {
+        transform: rotate(320deg);
+      }
+    
+    100% {
+        transform: rotate(0deg);
+      }
+  }
+      
